@@ -29,7 +29,7 @@ pip3 install -r InstallMe.txt
 - Now you will start seeing on all the other terminals the output and what message is being sent out. 
 
 A video simulation of the process can be seen on this link:
-![demo_video](https://drive.google.com/file/d/1662SxPC2Awif9XJ3dUARasBpe_78zI0Q/view?usp=sharing)
+https://drive.google.com/file/d/1662SxPC2Awif9XJ3dUARasBpe_78zI0Q/view?usp=sharing
 
 ## References:
-![tuto_video](https://www.youtube.com/watch?v=V6JZubsoWYY&ab_channel=WindMillCode)
+- Tutorial video for Google Pub/Sub: https://www.youtube.com/watch?v=V6JZubsoWYY&ab_channel=WindMillCode
