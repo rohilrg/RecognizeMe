@@ -18,19 +18,18 @@ pip3 install -r InstallMe.txt
 ## Architechture on Google Pub/Sub for this project:
 
 ![Architechture on Google Pub/Sub for this project](https://github.com/rohilrg/RecognizeMe/blob/main/images/recognizeme_project.png)
-## Steps to follow:
-- Create 
+## Steps to follow to run this project:
+- Create topics and subscriber with names in the architecture given above. A good tutorial to learn that is referenced below.
+- Now, run the files in this order in 4 different terminals:
+  - consumer.py 
+  - topic-find-duplicate.py
+  - topic-classify-me.py
+  - producer.py
+- After the producer.py file starts running, the data (strings) stored in file data/StringStream.json starts publishing a string at gap of variable interval of 0.5 to 2 seconds (this can be adjusted in producer.py file).
+- Now you will start seeing on all the other terminals the output and what message is being sent out. 
 
-```dictionary
-{'Dog': ['Dogs','dogma','cat'], 'mouse': ['mice','mouses','shark']}
-```
+A video simulation of the process can be seen on this link:
+![demo_video](https://drive.google.com/file/d/1662SxPC2Awif9XJ3dUARasBpe_78zI0Q/view?usp=sharing)
 
-```bash
- python3 run_indexing_engine.py 
-```
-
-
-```bash
-python3 finder_on_indexed_docs.py
-```
-
+## References:
+![tuto_video](https://www.youtube.com/watch?v=V6JZubsoWYY&ab_channel=WindMillCode)
