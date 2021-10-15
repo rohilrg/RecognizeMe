@@ -33,7 +33,7 @@ pip3 install -r InstallMe.txt
   - topic-find-duplicate.py
   - topic-classify-me.py
   - producer.py
-- After the producer.py file starts running, the data (strings) stored in file data/StringStream.json starts publishing a string at a gap of the variable interval of 0.5 to 2 seconds (this can be adjusted in producer.py file).
+- After the producer.py file starts running, the data (strings) stored in file data/StringStream.json starts publishing a string at a variable interval of 0.5 to 2 seconds (this can be adjusted in producer.py file).
 - Now you will start seeing on all the other terminals the output and what message is being sent out. 
 
 A video simulation of the process can be seen on this link:
