@@ -2,7 +2,7 @@
 A NER classifier ingesting stream of strings using Google Pub-Sub. 
 
 ## Idea behind the project:
-This side project was made to imagine a scenario where a stream of data (strings) is sent out by the any producer (in Apache Kafka lingo). Upon arrival how Named Entity Recognition (NER) is done to classify each data into a cluster of different categories keeping in mind that the synomns or the similar data are grouped together.
+This side project was made to imagine a scenario where a stream of data (strings) is sent out by the any producer (in Apache Kafka lingo). Upon arrival how Named Entity Recognition (NER) is done to classify each data into a cluster of different categories keeping in mind that synonym or the similar data are grouped together.
 
 ## Pre-installation steps:
 - Make sure you have python 3+ installed on your computer.
