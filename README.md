@@ -18,7 +18,7 @@ pip3 install -r InstallMe.txt
 ## Architechture on Google Pub/Sub for this project:
 
 ![Architechture on Google Pub/Sub for this project](https://github.com/rohilrg/RecognizeMe/blob/main/images/recognizeme_project.png)
-## Steps to follow to run this project:
+## Steps to run this project:
 - Create topics and subscriber with names in the architecture given above. A good tutorial to learn that is referenced below.
 - Insert your private key path and the path of subscriber/publisher in the four files mentioned in the next step.
 - Now, run the files in this order in 4 different terminals:
