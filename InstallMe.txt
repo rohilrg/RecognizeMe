@@ -1,0 +1,7 @@
+nltk
+spacy
+pyenchant
+python-Levenshtein
+google-cloud
+google-cloud-pubsub
+google-cloud-vision
