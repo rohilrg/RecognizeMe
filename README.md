@@ -15,9 +15,9 @@ In your terminal/command-line go to the project folder and execute the command b
 pip3 install -r InstallMe.txt 
 ```
 
-## Architechture of Google Pub/Sub:
+## Architechture on Google Pub/Sub for this project:
 
-![alt text](http://url/to/img.png)
+![Architechture on Google Pub/Sub for this project](https://github.com/rohilrg/RecognizeMe/blob/main/images/recognizeme_project.png)
 ## Steps to follow:
 - Create 
 
