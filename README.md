@@ -29,10 +29,10 @@ pip3 install -r InstallMe.txt
 - Create topics and subscribers with names in the architecture given above. A good tutorial to learn that is referenced below.
 - Insert your private key path and the path of subscriber/publisher in the four files mentioned in the next step.
 - Now, run the files in this order in 4 different terminals:
-  - consumer.py 
-  - topic-find-duplicate.py
-  - topic-classify-me.py
-  - producer.py
+  - consumer.py 
+  - topic-find-duplicate.py
+  - topic-classify-me.py
+  - producer.py
 - After the producer.py file starts running, the data (strings) stored in file data/StringStream.json starts publishing a string at a gap of the variable interval of 0.5 to 2 seconds (this can be adjusted in producer.py file).
 - Now you will start seeing on all the other terminals the output and what message is being sent out. 
 
