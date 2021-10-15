@@ -1,5 +1,5 @@
 # RecognizeMe
-A NER classifier ingesting a stream of strings using Google Pub-Sub. 
+A NER Engine classifing a stream of strings using Google Pub-Sub. 
 
 ## Idea behind the project:
 This side project was made to imagine a scenario where a stream of data (strings) is sent out by any producer (in Apache Kafka lingo). Upon arrival, how Named Entity Recognition (NER) Engine recognizes each string into a cluster of different categories keeping in mind the fact that the synonyms or the same contextual strings are grouped together.
